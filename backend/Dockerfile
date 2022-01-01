@@ -25,6 +25,6 @@ RUN docker-php-ext-install \
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-WORKDIR /var/www/backend
+WORKDIR /usr/share/nginx/backend
 
 EXPOSE 9000
